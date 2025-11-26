@@ -5,7 +5,7 @@
 * Para cada km/h da velocidade considerada acima da máxima, a multa é de 10 Reais.
 * */
 public class ExercicioMultaVelocidade {
-    static void main(String[] args) {
+    public static void main(String[] args) {
         var scanner = new java.util.Scanner(System.in);
         int velocidadeMaxima = 90;
         double velocidadeVeiculo, velocidadeConsiderada;
@@ -25,5 +25,6 @@ public class ExercicioMultaVelocidade {
         }else{
             System.out.println("Você não foi multado.");
         }
+        scanner.close();
     }
 }

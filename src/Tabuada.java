@@ -3,7 +3,7 @@
 * */
 
 public class Tabuada {
-    static void main(String[] args) {
+    public static void main(String[] args) {
         var scanner = new java.util.Scanner(System.in);
         System.out.println("Digite o número para a realização da tabuada: ");
         int numero = scanner.nextInt();
@@ -13,5 +13,6 @@ public class Tabuada {
             int resultado = i * numero;
             System.out.println(numero + " X " + i +" = " + resultado);
         }
+        scanner.close();
     }
 }

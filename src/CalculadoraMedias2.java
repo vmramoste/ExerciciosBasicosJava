@@ -1,5 +1,10 @@
+/*
+* Receba uma quantidade variável de notas e faça a média delas.
+* Quando o usuário entrar com um valor vazio, pare de receber notas e imprima o resultado.
+* */
+
 public class CalculadoraMedias2 {
-    static void main(String[] args) {
+    public static void main(String[] args) {
         var scanner = new java.util.Scanner(System.in);
         int quantidadeNotas = 0;
         double somaNotas = 0;
@@ -13,7 +18,10 @@ public class CalculadoraMedias2 {
             quantidadeNotas++;
             somaNotas += Double.parseDouble(notaEntrada);
         }
-        double media = somaNotas/quantidadeNotas;
-        System.out.println("A média final, com " + quantidadeNotas + " notas é: " + media);
+        if(quantidadeNotas > 0){
+            double media = somaNotas/quantidadeNotas;
+            System.out.println("A média final, com " + quantidadeNotas + " notas é: " + media);
+        }
+        scanner.close();
     }
 }

@@ -4,10 +4,10 @@
 * */
 
 public class DiaDaSemana {
-    static void main(String[] args) {
+    public static void main(String[] args) {
         var scanner = new java.util.Scanner(System.in);
         int opcao = -1;
-        System.out.println("Digite o número: ");
+        System.out.println("Digite o número de 1 a 7: ");
         opcao = scanner.nextInt();
        /*
         //Verificar opção usando switch
@@ -53,5 +53,7 @@ public class DiaDaSemana {
 
         };
         System.out.println(dia);
+        scanner.close();
     }
+
 }
