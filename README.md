@@ -24,7 +24,7 @@ Curso abrangente que cobre desde fundamentos até conceitos avançados de Java, 
 7. **Tabuada** - Geração de tabuada completa
 
 ## 🎯 Objetivo de Carreira
-Busco minha **primeira oportunidade em estágio de desenvolvimento**, preferencialmente back-end, onde possa aplicar e expandir meus conhecimentos em Java e outras tecnologias, contribuindo com minha experiência anterior em qualidade de software e análise de dados.
+Busco **oportunidade em estágio de desenvolvimento**, preferencialmente back-end, onde possa aplicar e expandir meus conhecimentos em Java e outras tecnologias, contribuindo com minha experiência anterior em qualidade de software e análise de dados.
 
 ## 🔄 Conexão com Experiência Anterior
 Minha passagem por **QA, BI e análise de dados** me proporcionou uma visão abrangente do ciclo de desenvolvimento, focando na qualidade e confiabilidade das soluções - habilidades que agora aplico na construção de código limpo e bem estruturado.
